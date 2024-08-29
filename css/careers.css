@@ -1,0 +1,105 @@
+#car-banner{
+    background-image: url(../image/inner/men-women-gym-cycling-together-happily-generated-by-ai_188544-10868.avif);
+    height: 500px;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.7; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background-attachment: fixed; */
+}
+#car-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    /* height: 50em; */
+    padding: 3%;
+    flex-wrap: wrap;
+}
+#car-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: large;
+}
+h3{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+#car-p-1{
+font-weight: 900;
+margin-bottom: 2%;
+}
+#car-p-2,#car-p-3{
+    margin-bottom: 2%;
+    line-height: 20px;
+}
+ul{
+    padding-left: 5%;
+}
+li{
+    padding-left: 2%;
+    line-height: 25px;
+}
+#car-p-4,#car-p-5{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    line-height: 20px;
+
+}
+#car-form{
+    /* flex-direction: column; */
+    background-color: rgb(220, 235, 248);
+    border-radius: 2%;
+    padding: 5%;
+    margin-top: 2%;
+}
+input,#form{
+    
+    margin: 2%;
+    
+}
+#car-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0.5;
+
+}
+#car-p-6{
+    text-transform: uppercase;
+    color: black;
+    margin: 2%;
+}
+
+#submit{
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 1px 1px 1px 0px;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+#car-ban-txt{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#car-ban-p1{
+    color: aliceblue;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+#car-ban-p2{
+    color: aliceblue;
+    font-size: large;
+}

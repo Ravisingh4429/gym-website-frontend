@@ -1,0 +1,30 @@
+#clas-banner{
+    height: 500px;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.7; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    /* background-attachment: fixed; */
+    background-image: url(../image/inner/Social-16.webp);
+    flex-direction: column;
+}
+#clas-ban-txt{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#clas-ban-p1{
+    color: aliceblue;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+#clas-ban-p2{
+    color: aliceblue;
+    font-size: large;
+}
